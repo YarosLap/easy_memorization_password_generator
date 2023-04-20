@@ -8,4 +8,3 @@ digits_libr = string.digits
 password1 = ''.join([letters_lib[randint(0, len(letters_lib) - 1)] for x in range(lenght - 2)])
 password2 = ''.join([digits_libr[randint(0, len(digits_libr) - 1)] for x in range(0, 2)])
 print(password1 + password2)
-# print(*password1, *password2)
